@@ -50,9 +50,9 @@ class LoginFragment : Fragment() {
 
 
     private fun initEvents() {
-        binding.btnLoginGG.setOnClickListener {
-            signInGoogle()
-        }
+//        binding.btnLoginGG.setOnClickListener {
+//            signInGoogle()
+//        }
     }
 
     private fun signInGoogle() {

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.loofarm.databinding.ActivityMainBinding
 import com.example.loofarm.model.ManagerUser
+import com.example.loofarm.ui.HomeFragment
 import com.example.loofarm.ui.LoginFragment
 
 class MainActivity : AppCompatActivity(){

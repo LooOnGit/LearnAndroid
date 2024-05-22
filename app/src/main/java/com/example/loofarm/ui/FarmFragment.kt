@@ -92,12 +92,12 @@ class FarmFragment : Fragment() {
     private fun initControls() {
 //        Toast.makeText(requireContext(), "${ManagerUser.getPosition()}", Toast.LENGTH_SHORT).show()
         binding.txtStartDate.text = ManagerUser.getDate(ManagerUser.getPosition())
-        binding.txtNameSensor1.text = ManagerUser.getDeviceName(ManagerUser.getPosition(), 0)
-        binding.txtValueSensor1.text = "${ManagerUser.getDeviceValue(ManagerUser.getPosition(), 0)}"+"°C"
-        binding.txtNameSensor2.text = ManagerUser.getDeviceName(ManagerUser.getPosition(), 1)
-        binding.txtValueSensor2.text = "${ManagerUser.getDeviceValue(ManagerUser.getPosition(), 1)}"+"g/m³"
-        binding.txtNameAc1.text = "${ManagerUser.getDeviceName(ManagerUser.getPosition(), 3)}"
-        binding.txtNameAc2.text = "${ManagerUser.getDeviceName(ManagerUser.getPosition(), 2)}"
+        binding.txtNameSensor1.text = 7.toString()
+        binding.txtValueSensor1.text = "6"+"°C"
+        binding.txtNameSensor2.text = 5.toString()
+        binding.txtValueSensor2.text = "5"+"g/m³"
+        binding.txtNameAc1.text = "Acuter 1"
+        binding.txtNameAc2.text = "Acuter 2"
 
         var dateStart = ManagerUser.getDate(ManagerUser.getPosition())
         val parts = dateStart?.split("/")
